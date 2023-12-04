@@ -1,7 +1,7 @@
 .page {
   background-image: var(--cover-image);
   background-position: center;
-  background-size: 100% 100%;
+  background-size: cover;
   background-attachment: fixed;
   transition: background-image 0.3s;
   font-family: var(--font-family), sans-serif;
@@ -99,6 +99,7 @@
   align-self: center;
   width: clamp(22.75rem, -1.0625rem + 49.6094vw, 30.6875rem);
   color: var(--accent-color-text);
+  font-size: inherit;
   font-weight: 700;
   line-height: 23.4px;
 }
@@ -215,9 +216,6 @@
 }
 
 /* Блок с галереей */
-.gallery-section {
-}
-
 .gallery__title {
   color: var(--accent-color-text);
 }
@@ -296,6 +294,7 @@
 
 @media (width <= 750px) {
   .header {
+    grid-template: repeat(3, calc((100vh / 3) - 20px / 3)) / 1fr;
     margin-bottom: 40px;
   }
   .header__title {
@@ -336,12 +335,6 @@
       "books"
       "street";
     gap: 10px;
-  }
-
-  .gallery__img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
   }
   
   .footer {

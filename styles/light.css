@@ -1,5 +1,4 @@
 .page.theme_light {
-  --font-family: 'IBM Plex mono';
   --cover-image: url(../images/cover-image-light.png);
   --main-color: #353430;
   --accent-color: #ff8dcb;
@@ -10,7 +9,6 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --font-family: 'IBM Plex mono';
     --cover-image: url(../images/cover-image-light.png);
     --main-color: #353430;
     --accent-color: #ff8dcb;
