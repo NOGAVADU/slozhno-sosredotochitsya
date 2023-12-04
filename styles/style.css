@@ -21,7 +21,7 @@
   width: 25px;
   height: 25px;
   left: clamp(0.625rem, 0.2639rem + 1.5408vw, 1.25rem);
-  bottom:clamp(0.625rem, 0.2639rem + 1.5408vw, 1.25rem);
+  bottom: clamp(0.625rem, 0.2639rem + 1.5408vw, 1.25rem);
   border-left: 1px solid var(--accent-color);
   border-bottom: 1px solid var(--accent-color);
 }
@@ -105,7 +105,6 @@
 
 /* Декоративная надпись REC с лампочкой */
 .header__decoration {
-  display: var(--bulb-show);
   position: absolute;
   display: grid;
   place-items: center;
@@ -117,6 +116,7 @@
 }
 
 .header__decoration::before {
+  opacity: var(--bulp-opacity);
   position: absolute;
   content: "REC";
   color: var(--accent-color);
@@ -125,6 +125,7 @@
 }
 
 .header__decoration-bulb {
+  opacity: var(--bulp-opacity);
   width: 6px;
   height: 6px;
   background-color: var(--accent-color);
@@ -277,8 +278,8 @@
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
-  .header__subtitle{
-    width:clamp(22.1875rem, 21.6508rem + 2.2901vw, 22.75rem);;
+  .header__subtitle {
+    width: clamp(22.1875rem, 21.6508rem + 2.2901vw, 22.75rem);
   }
 
   .footer__title {
@@ -297,7 +298,8 @@
   .header {
     margin-bottom: 40px;
   }
-  .header__title{
+  .header__title {
+    line-height: 82.5%;
     margin-inline-start: 0;
   }
   .decorated-zone {
