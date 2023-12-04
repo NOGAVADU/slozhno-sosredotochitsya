@@ -343,27 +343,7 @@
     height: 100%;
     object-fit: cover;
   }
-
-  .sunset {
-    grid-area: sunset;
-  }
-
-  .icecream {
-    grid-area: icecream;
-  }
-
-  .tape {
-    grid-area: tape;
-  }
-
-  .books {
-    grid-area: books;
-  }
-
-  .street {
-    grid-area: street;
-  }
-
+  
   .footer {
     margin-top: 40px;
   }
