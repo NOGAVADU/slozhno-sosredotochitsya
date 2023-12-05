@@ -3,6 +3,9 @@
   --cover-image: url(../images/cover-image-dark.png);
   --main-color: #F1B2CE;
   --accent-color: #FF0070;
+  --menu-hover-color: rgba(255, 0, 111, 0.4);
+  --menu-text-color: #FF0070;
+  --decoration-color: #FF0070;
   --accent-color-text: #000028;
   --title-color: #DB00FF;
   --bulp-opacity: 1;

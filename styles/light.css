@@ -2,6 +2,9 @@
   --cover-image: url(../images/cover-image-light.png);
   --main-color: #353430;
   --accent-color: #ff8dcb;
+  --menu-hover-color: rgba(53, 52, 48, 0.4);
+  --menu-text-color: #353430;
+  --decoration-color: #353430;
   --accent-color-text: #353430;
   --title-color: #ffc2e6;
   --bulp-opacity: 0;
@@ -12,12 +15,16 @@
     --cover-image: url(../images/cover-image-light.png);
     --main-color: #353430;
     --accent-color: #ff8dcb;
+    --menu-hover-color: rgba(53, 52, 48, 0.4);
+    --menu-text-color: #353430;
+    --decoration-color: #353430;
     --accent-color-text: #353430;
     --title-color: #ffc2e6;
     --bulp-opacity: 0;
   }
 }
 
-.theme_light.page{
+.theme_light.page {
   background-image: var(--cover-image);
 }
+
