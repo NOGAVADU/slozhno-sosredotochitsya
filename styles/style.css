@@ -162,7 +162,7 @@
 }
 
 .content__section-title {
-  color: var(--accent-color);
+  color: var(--section-title-color);
   font-size: inherit;
   font-weight: 700;
   line-height: 23.4px;

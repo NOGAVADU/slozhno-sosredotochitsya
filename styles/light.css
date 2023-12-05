@@ -2,6 +2,7 @@
   --cover-image: url(../images/cover-image-light.png);
   --main-color: #353430;
   --accent-color: #ff8dcb;
+  --section-title-color: #353430;
   --menu-hover-color: rgba(53, 52, 48, 0.4);
   --menu-text-color: #353430;
   --decoration-color: #353430;
@@ -16,6 +17,7 @@
     --cover-image: url(../images/cover-image-light.png);
     --main-color: #353430;
     --accent-color: #ff8dcb;
+    --section-title-color: #353430;
     --menu-hover-color: rgba(53, 52, 48, 0.4);
     --menu-text-color: #353430;
     --decoration-color: #353430;
