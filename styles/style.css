@@ -91,7 +91,7 @@
 .header__title {
   margin-inline-start: -20px;
   color: var(--title-color);
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 var(--title-shadow-color);
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
 }
 
@@ -293,6 +293,7 @@
 @media (width <= 768px) {
   .header__title {
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    text-shadow: 4px 4px 0 var(--accent-color);
   }
 
   .header__subtitle {
